@@ -1,0 +1,23 @@
+{
+  "name": "quiz2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "mocha test",
+    "save": "npm tests -- -w"
+  },
+  "dependencies": {
+    "mongo": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
